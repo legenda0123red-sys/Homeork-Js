@@ -1,0 +1,23 @@
+.mainDiv {
+    width: 500px;
+    height: 500px;
+    margin-left: 380px;
+}
+.mainDiv h1{
+    font-weight: bold;
+
+}
+.secDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.secDiv button{
+    padding: 20px;
+    font-weight: bold;
+    background-color: orange;
+}
+
+.active{
+    display: none;
+}
